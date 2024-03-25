@@ -1,5 +1,5 @@
-import { useCatFact } from '../hooks/useCatFact'
-import { Cat } from '../components/Cat'
+import { useCatFact } from './hooks/useCatFact'
+import { Cat } from './components/Cat'
 
 export function App () {
   const { facts, refreshFact } = useCatFact()
