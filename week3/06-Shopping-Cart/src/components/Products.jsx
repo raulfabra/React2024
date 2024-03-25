@@ -6,7 +6,7 @@ export function Products ({ products }) {
     <main>
       <ul className='products'>
         {
-            products?.slice(0, 15).map(product => (
+            products?.map(product => (
               <li key={product.id}>
                 <img src={product.thumbnail} alt={product.title} />
                 <div>
